@@ -185,10 +185,6 @@ html {
   appearance: none;
 }
 
-.header__theme-menu-button_active {
-  pointer-events: none;
-}
-
 .header__theme-menu-button:focus {
   outline: 0;
 }
@@ -204,6 +200,7 @@ html {
 }
 
 .header__theme-menu-button_active {
+  pointer-events: none;
   outline: 1px solid var(--outline-color);
 }
 
