@@ -189,13 +189,13 @@ html {
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--outline-color);
+  border-block-end: 1px solid currentColor;
   color: var(--outline-color);
 }
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  outline: 1px solid var(--outline-color);
+  outline: 1px solid currentColor;
 }
 
 .title {
