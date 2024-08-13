@@ -27,3 +27,13 @@
 
   --header-background-image: url("../images/cover-image-dark.png");
 }
+
+.page.theme_dark .header__record-item {
+  display: flex;
+}
+
+@media (prefers-color-scheme: dark) {
+  .page.theme_auto .header__record-item {
+    display: flex;
+  }
+}
