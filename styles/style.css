@@ -199,8 +199,8 @@ html {
 }
 
 .header__theme-menu-button_active {
-  pointer-events: none;
   outline: 1px solid currentColor;
+  pointer-events: none;
 }
 
 .title {
