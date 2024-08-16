@@ -306,20 +306,12 @@ html {
 }
 
 @media (max-width: 768px) {
-  .header {
-    min-block-size: clamp(41.75rem, 20.5191rem + 90.5852vw, 64rem);
-  }
-
   .header__theme-menu-list {
     flex-direction: column;
     align-items: flex-end;
-    margin-block-start: clamp(4.0625rem, -2.3187rem + 27.2265vw, 10.75rem);
-    padding-inline-end: 0;
   }
 
   .title {
-    margin-block-start: clamp(4.0625rem, -2.3783rem + 27.4809vw, 10.8125rem);
-    margin-block-end: clamp(3.4375rem, -2.9437rem + 27.2265vw, 10.125rem);
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
