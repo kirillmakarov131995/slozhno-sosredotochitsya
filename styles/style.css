@@ -83,6 +83,15 @@ html {
   gap: 20px;
 }
 
+.title-decor {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0;
+  color: var(--title-secondary-color);
+  background-color: var(--accent-color);
+}
+
 .decorated-zone::before {
   content: "";
   position: absolute;
@@ -231,13 +240,13 @@ html {
   letter-spacing: 0;
 }
 
-.sub-title {
+/* .sub-title {
   color: var(--text-secondary-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0;
-}
+} */
 
 .sub-title_regular {
   font-weight: 400;
@@ -246,10 +255,6 @@ html {
 .sub-title_new-line {
   display: inline-block;
   margin-block-start: 19px;
-}
-
-.title-decor {
-  background-color: var(--accent-color);
 }
 
 .gallery__list {
